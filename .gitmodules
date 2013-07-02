@@ -4,6 +4,86 @@
 [submodule "cookbooks/apt"]
 	path = cookbooks/apt
 	url = https://github.com/opscode-cookbooks/apt
+
+[submodule "cookbooks/php"]
+	path = cookbooks/php
+	url = https://github.com/opscode-cookbooks/php
+
+[submodule "cookbooks/nginx"]
+	path = cookbooks/nginx
+	url = https://github.com/opscode-cookbooks/nginx
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = https://github.com/opscode-cookbooks/git
+[submodule "cookbooks/rabbitmq"]
+	path = cookbooks/rabbitmq
+	url = https://github.com/opscode-cookbooks/rabbitmq
+[submodule "cookbooks/thrift"]
+	path = cookbooks/thrift
+	url = https://github.com/opscode-cookbooks/thrift
+[submodule "cookbooks/cron"]
+	path = cookbooks/cron
+	url = https://github.com/opscode-cookbooks/cron
+[submodule "cookbooks/dynect"]
+	path = cookbooks/dynect
+	url = https://github.com/opscode-cookbooks/dynect
+[submodule "cookbooks/aws"]
+	path = cookbooks/aws
+	url = https://github.com/opscode-cookbooks/aws
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl
+[submodule "cookbooks/munin"]
+	path = cookbooks/munin
+	url = https://github.com/opscode-cookbooks/munin
+[submodule "cookbooks/gunicorn"]
+	path = cookbooks/gunicorn
+	url = https://github.com/opscode-cookbooks/gunicorn
+[submodule "cookbooks/vim"]
+	path = cookbooks/vim
+	url = https://github.com/opscode-cookbooks/vim
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = https://github.com/opscode-cookbooks/windows
+[submodule "cookbooks/application_python"]
+	path = cookbooks/application_python
+	url = https://github.com/opscode-cookbooks/application_python
+[submodule "cookbooks/application_php"]
+	path = cookbooks/application_php
+	url = https://github.com/opscode-cookbooks/application_php
+[submodule "cookbooks/application_java"]
+	path = cookbooks/application_java
+	url = https://github.com/opscode-cookbooks/application_java
+[submodule "cookbooks/application_ruby"]
+	path = cookbooks/application_ruby
+	url = https://github.com/opscode-cookbooks/application_ruby
+[submodule "cookbooks/application_ngnix"]
+	path = cookbooks/application_ngnix
+	url = https://github.com/opscode-cookbooks/application_nginx
+[submodule "cookbooks/varnish"]
+	path = cookbooks/varnish
+	url = https://github.com/opscode-cookbooks/varnish
+[submodule "cookbooks/sql_server"]
+	path = cookbooks/sql_server
+	url = https://github.com/opscode-cookbooks/sql_server
+[submodule "cookbooks/memcached"]
+	path = cookbooks/memcached
+	url = https://github.com/opscode-cookbooks/memcached
+[submodule "cookbooks/supervisor"]
+	path = cookbooks/supervisor
+	url = https://github.com/opscode-cookbooks/supervisor
+[submodule "cookbooks/nagios"]
+	path = cookbooks/nagios
+	url = https://github.com/opscode-cookbooks/nagios
+[submodule "cookbooks/python"]
+	path = cookbooks/python
+	url = https://github.com/opscode-cookbooks/python
+[submodule "cookbooks/logrotate"]
+	path = cookbooks/logrotate
+	url = https://github.com/opscode-cookbooks/logrotate
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = https://github.com/opscode-cookbooks/mysql
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential
