@@ -87,3 +87,12 @@
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential
+[submodule "cookbooks/networking_basic"]
+	path = cookbooks/networking_basic
+	url = https://github.com/fred/fredz_cookbooks
+[submodule "cookbooks/zend-server"]
+	path = cookbooks/zend-server
+	url = https://github.com/continuousphp/zend-server
+[submodule "cookbooks/composer"]
+	path = cookbooks/composer
+	url = https://github.com/kdambekalns/cookbook-composer.git
