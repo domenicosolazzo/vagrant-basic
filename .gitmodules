@@ -99,3 +99,6 @@
 [submodule "cookbooks/magerun"]
 	path = cookbooks/magerun
 	url = https://github.com/rjocoleman/magerun-chef.git
+[submodule "cookbooks/magento"]
+	path = cookbooks/magento
+	url = https://github.com/yevgenko/cookbook-magento.git

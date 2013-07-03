@@ -51,7 +51,8 @@ Vagrant.configure("2") do |config|
         chef.roles_path = "./roles"
         chef.data_bags_path = "./data_bags"
         
-        chef.add_recipe "apache2"
+        #chef.add_recipe "apache2"
+        chef.add_recipe "magerun"
         #chef.add_role "web"
       
       #   # You may also specify custom JSON attributes:
