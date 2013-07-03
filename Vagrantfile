@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-i386-vagrant-disk1.box"
+  config.vm.box_url = "http://cloud-images.ubuntu.com/raring/current/raring-server-cloudimg-vagrant-amd64-disk1.box"
   
   config.vm.define :basic do |basic|
      basic.vm.box = "ubuntu-1304-basic"
@@ -43,18 +43,20 @@ Vagrant.configure("2") do |config|
      
      # Port forwarding
      web.vm.network :forwarded_port, guest: 80, host: 8080
-     
-     web.omnibus.chef_version = :latest
+     web.vm.provision :shell, :path => "bootstrap.sh"
+
+     #web.omnibus.chef_version = :latest
      web.vm.provision :chef_solo do |chef|
-        chef.cookbooks_path = "cookbooks"
-        chef.roles_path = "roles"
-        chef.data_bags_path = "data_bags"
+        chef.cookbooks_path = "./cookbooks"
+        chef.roles_path = "./roles"
+        chef.data_bags_path = "./data_bags"
         
         chef.add_recipe "apache2"
         #chef.add_role "web"
       
       #   # You may also specify custom JSON attributes:
       #   chef.json = { :mysql_password => "foo" }
+      chef.json = { :apache => { :default_site_enabled => true } }
       end
   end
   
