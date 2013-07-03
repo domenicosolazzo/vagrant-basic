@@ -30,7 +30,7 @@ Vagrant.configure("2") do |config|
         chef.roles_path = "roles"
         chef.data_bags_path = "data_bags"
         
-        #chef.add_recipe "mysql"
+        #chef.add_recipe ""
         #chef.add_role "web"
       
       #   # You may also specify custom JSON attributes:
@@ -43,13 +43,14 @@ Vagrant.configure("2") do |config|
      
      # Port forwarding
      web.vm.network :forwarded_port, guest: 80, host: 8080
-
+     
+     web.omnibus.chef_version = :latest
      web.vm.provision :chef_solo do |chef|
         chef.cookbooks_path = "cookbooks"
         chef.roles_path = "roles"
         chef.data_bags_path = "data_bags"
         
-        #chef.add_recipe "mysql"
+        chef.add_recipe "apache2"
         #chef.add_role "web"
       
       #   # You may also specify custom JSON attributes:
