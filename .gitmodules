@@ -93,9 +93,6 @@
 [submodule "cookbooks/zend-server"]
 	path = cookbooks/zend-server
 	url = https://github.com/continuousphp/zend-server
-[submodule "cookbooks/composer"]
-	path = cookbooks/composer
-	url = https://github.com/kdambekalns/cookbook-composer.git
 [submodule "cookbooks/magerun"]
 	path = cookbooks/magerun
 	url = https://github.com/rjocoleman/magerun-chef.git
