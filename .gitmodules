@@ -102,3 +102,12 @@
 [submodule "cookbooks/magento"]
 	path = cookbooks/magento
 	url = https://github.com/yevgenko/cookbook-magento.git
+[submodule "cookbooks/chef-php-extra"]
+	path = cookbooks/chef-php-extra
+	url = https://github.com/inviqa/chef-php-extra.git
+[submodule "cookbooks/chef-phpunit"]
+	path = cookbooks/chef-phpunit
+	url = https://github.com/escapestudios/chef-phpunit.git
+[submodule "cookbooks/xdebug"]
+	path = cookbooks/xdebug
+	url = https://github.com/xforty/chef-xdebug.git
