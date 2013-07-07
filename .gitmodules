@@ -114,3 +114,9 @@
 [submodule "cookbooks/domenico-php-dev"]
 	path = cookbooks/domenico-php-dev
 	url = git@github.com:domenicosolazzo/php-dev.git
+[submodule "cookbooks/xml"]
+	path = cookbooks/xml
+	url = https://github.com/opscode-cookbooks/xml
+[submodule "cookbooks/phpunit"]
+	path = cookbooks/phpunit
+	url = https://github.com/escapestudios/chef-phpunit
