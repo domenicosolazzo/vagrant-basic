@@ -111,3 +111,6 @@
 [submodule "cookbooks/xdebug"]
 	path = cookbooks/xdebug
 	url = https://github.com/xforty/chef-xdebug.git
+[submodule "cookbooks/domenico-php-dev"]
+	path = cookbooks/domenico-php-dev
+	url = git@github.com:domenicosolazzo/php-dev.git
