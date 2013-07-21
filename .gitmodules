@@ -81,9 +81,6 @@
 [submodule "cookbooks/logrotate"]
 	path = cookbooks/logrotate
 	url = https://github.com/opscode-cookbooks/logrotate
-[submodule "cookbooks/mysql"]
-	path = cookbooks/mysql
-	url = https://github.com/opscode-cookbooks/mysql
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential
@@ -117,3 +114,12 @@
 [submodule "cookbooks/phpunit"]
 	path = cookbooks/phpunit
 	url = https://github.com/escapestudios/chef-phpunit
+[submodule "cookbooks/composer"]
+	path = cookbooks/composer
+	url = https://github.com/escapestudios/chef-composer.git
+[submodule "cookbooks/chef-composer"]
+	path = cookbooks/chef-composer
+	url = https://github.com/escapestudios/chef-composer.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = https://github.com/opscode-cookbooks/mysql.git
