@@ -120,6 +120,3 @@
 [submodule "cookbooks/chef-composer"]
 	path = cookbooks/chef-composer
 	url = https://github.com/escapestudios/chef-composer.git
-[submodule "cookbooks/mysql"]
-	path = cookbooks/mysql
-	url = https://github.com/opscode-cookbooks/mysql.git
