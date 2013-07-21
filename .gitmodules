@@ -123,6 +123,3 @@
 [submodule "cookbooks/mysql"]
 	path = cookbooks/mysql
 	url = https://github.com/opscode-cookbooks/mysql
-[submodule "phpmyadmin"]
-	path = phpmyadmin
-	url = https://github.com/priestjim/chef-phpmyadmin.git
